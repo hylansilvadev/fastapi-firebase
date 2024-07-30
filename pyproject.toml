@@ -1,12 +1,15 @@
 [tool.poetry]
-name = "fastapi-firebase"
+name = "core"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Hylan Silva <hylansilva@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.111.1"
+pydantic-settings = "^2.4.0"
+firebase-admin = "^6.5.0"
 
 
 [build-system]
